@@ -2,39 +2,37 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Prof. Ganderson Fan Site</title>
+    <title>IS413 Assignment 1</title>
     <link href="css/main.css" rel="stylesheet" />
+    <link rel="icon" href="img/unnamed.jpg">
 </head>
 <body>
-    <h1>Prof. Ganderson Fan Site</h1>
-    <img src="img/download.jpg"/>
-    <p>Prof. Greg Anderson (a.k.a "Ganderson")</p>
+    <h1>Anthony Sharp</h1>
+    <div class="container">
+        <img src="img/IMG_8327.jpeg" />
+    </div>
+    <p>I hope to learn another ASP.NET well and continue learning the different ways to build websites/solutions</p>
     <br />
-    <p>We love him because</p>
-    <ul class="quiz-prompts">
-        <li>He's nice</li>
-        <li>He's smart</li>
-        <li>He's talented</li>
+    <h2>Dream Jobs</h2>
+    <ul class="list">
+        <li>Cloud Solutions Architect</li>
+        <li>Developer</li>
+        <li>Devops Engineer</li>
     </ul>
 
-    <h2>Fan Mail</h2>
+    <br />
+
+    <h2>Grade Calculator</h2>
     <form>
-        <label>From:</label>
-        <input id="fromField"/>
+        <label>Percentage</label>
+        <input id="percentage" />
         <br />
-        <label>Email:</label>
-        <input id="emailField"/>
         <br />
-        <label>Subject:</label>
-        <input id="subjectField"/>
-        <br />
-        <label>Message:</label>
-        <textarea id="messageField"rows="5"></textarea>
-        <br />
-        <input type="submit" value="Send Message" id="submitButton"/>
+        <input type="submit" value="See Grade" id="submitButton" />
 
     </form>
 
-    <script src="js/fanmail.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/grades.js"></script>
 </body>
 </html>

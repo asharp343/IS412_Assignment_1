@@ -1,14 +1,22 @@
 ﻿body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
 }
 
-label{
-    font-size: 20px;
-    color: blueviolet;
+label {
     width: 100px;
     display: inline-block;
 }
 
-.quiz-prompts{
+h2 {
+    font-size: 20px;
+}
+
+.list {
     list-style-type: none;
+}
+
+.container img {
+    width: 20%;
+    height: auto;
 }
